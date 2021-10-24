@@ -1,4 +1,4 @@
-# <img src='./ui/logo.png' width='50' height='50' style='vertical-align:bottom'/>Abirhasan Torrent Proxy Skill
+# <img src='./ui/tpb.svg' width='50' height='50' style='vertical-align:bottom'/>Abirhasan Torrent Proxy Skill
 
 Abirhasan Torrent Proxy OCP peerflix Skill
 
@@ -7,7 +7,6 @@ You need to also install [skill-peerflix](https://github.com/JarbasSkills/skill-
 ## About
 
 search and stream [Unofficial](https://api.abirhasan.wtf/documentation) api for 1337x and the pirate bay by voice!
-
 
 
 ## Examples
