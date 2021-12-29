@@ -36,7 +36,9 @@ class AbirhasanTorrentProxySkill(OVOSCommonPlaybackSkill):
     def search_abirhasan(query, endpoint):
         url = "https://api.abirhasan.wtf/" + endpoint
         results = requests.get(url, params={"query": query}).json()
-        for r in results["results"]:
+        if results.get('Empty'):
+            return
+        for r in results.get("results", []):
             yield {"title": r["Name"],
                    "magnet": r["Magnet"],
                    "image": r.get("Poster"),
